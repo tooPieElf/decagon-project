@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: Arial;
+  font-family: Arial;
+  font-weight: bold;
+
+}
+
+#welcome-section {
+  background-image: url('../images/top1.jpg');
+  height: 100vh;
+  background-size: cover;
+  top: 0;
+  background-color: rgb(80, 78, 78);
+  text-align: center;
+  line-height: 3em;
+  min-height: 55vh;
+  padding-top: 45vh;
+  color: white;
+}
+
+
+.login-box__input {
+  margin-top: 0em;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  height: 60px;
+  width: 80%;
+
+  background-color:rgb(224, 230, 227);
+  border: none;
+}
+
+form {
+    
+    margin: 0 auto;
+    width: 60%;
+    height: 80vh;
+  
+  
+    padding: 1em;
+    
+    border-radius: 1em;
+  }
+  h1{
+     margin-top:1em;
+      text-align: center;
+      color: white;
+  }
+  input{
+    height: 3em;
+    background-color: rgb(224, 230, 227);
+  }
+  
+  div + div {
+    margin: 2em;
+  }
+  
+  
+  
+  
+  
+    
+  
+  
+  
+   button{
+
+   
+    height:60px;
+    width: 250px;
+    background-color: #98aae6;
+    border-radius: 7px;
+    border: 1px solid #98aae6 ;
+    align-self: auto;
+    margin-bottom: 4px;
+}
+nav {
+  position: fixed;
+  top: 0px;
+}
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #98aae6;
+}
+
+nav ul li {
+  
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  
+}
+
+nav ul li a {
+
+  
+  color: #ffc21b;
+  text-decoration: none;
+  
+}

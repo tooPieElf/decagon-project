@@ -1,0 +1,126 @@
+{
+  "posts": [
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "ascendancytutor@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "chukwudi1",
+      "id": 1
+    },
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "ascendancytutor@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "chukwudi1",
+      "id": 2
+    },
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "ascendancytutor@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "omegapasky",
+      "id": 3
+    },
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "ascendancytutor@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "thisoma",
+      "id": 4
+    },
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "ascendancytutor@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "chukwudi1",
+      "id": 5
+    },
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "ascendancytutor@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "ascendancytutor@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "fatheer",
+      "id": 7
+    },
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "ascendancytutor@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "pasky",
+      "id": 8
+    },
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "omegapasky@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "this",
+      "id": 9
+    },
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "omegapasky@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "this",
+      "id": 10
+    },
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "omegapasky@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "this",
+      "id": 11
+    },
+    {
+      "name": "chukwudi ndimneze",
+      "Email": "omegapasky@gmail.com",
+      "Phonenumber": "07037258422",
+      "password": "this",
+      "id": 12
+    },
+    {
+      "name": "ndubuisi ekekwe",
+      "Email": "dispiroji@yahoo.com",
+      "Phonenumber": "08063860237",
+      "password": "chukwdi",
+      "id": 13
+    },
+    {
+      "name": "ndubuisi pasky",
+      "Email": "dispiroji@yahoo.com",
+      "Phonenumber": "08063860237",
+      "password": "ndimneze",
+      "id": 14
+    },
+    {
+      "name": "chukwudi",
+      "Email": "omegapasky@gmail.com",
+      "phone": "07037258422",
+      "password": "this",
+      "id": 15
+    },
+    {
+      "name": "",
+      "Email": "omegapasky@gmail.com",
+      "phone": "07037258422",
+      "password": "this",
+      "id": 16
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

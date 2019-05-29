@@ -1,0 +1,106 @@
+* {
+        margin: 0;
+        padding: 0;
+        font: Arial;
+        font-family: Arial;
+        font-weight: bold;
+    
+    }
+    #welcome-section {
+        background-image: url('../images/top1.jpg');
+        height: 100vh;
+        background-size: cover;
+        top: 0;
+        background-color: rgb(80, 78, 78);
+        text-align: center;
+        line-height: 3em;
+        min-height: 55vh;
+        padding-top: 45vh;
+        color: white;
+    }
+  
+  
+  
+  .login-box {
+    background-color: transparent;
+    width: 520px;
+    margin: 30px auto;
+    padding: 60px;
+    
+  }
+  
+  .login-box__input {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    height: 60px;
+    width: 100%;
+  
+    background-color:rgb(224, 230, 227);
+    border: none;
+  }
+  
+  .login-box__login-button {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: #98aae6;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    
+  }
+  
+  .login-box__footer {
+    text-align: center;
+    color: #666;
+  }
+  
+  .login-box__create-account {
+    color: #052f5f;
+    text-decoration: none;
+    border-bottom-width: 0;
+    border-bottom: 1px solid transparent;
+    transition: border 0.3s ease;
+  }
+  
+  .login-box__create-account:hover {
+    border-bottom-color: #052f5f;
+  }
+  nav {
+    position: fixed;
+    top: 0px;
+}
+
+nav ul {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    background-color: #98aae6;
+}
+
+nav ul li {
+    
+    display: inline-block;
+    margin: 55px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    
+}
+
+nav ul li a {
+
+    
+    color: #ffc21b;
+    text-decoration: none;
+    
+}
