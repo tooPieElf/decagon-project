@@ -58,10 +58,24 @@
   ],
   "comments": [
     {
-      "type": " ekeremgba ",
-      "amount": 1000,
-      "body": "some comment",
-      "postId": 1
+      "amount": "433",
+      "type": "deposit",
+      "id": 1
+    },
+    {
+      "amount": "6000",
+      "type": "deposit",
+      "id": 2
+    },
+    {
+      "amount": "8000",
+      "type": "deposit",
+      "id": 3
+    },
+    {
+      "amount": "60000",
+      "type": "deposit",
+      "id": 4
     }
   ],
   "profile": {

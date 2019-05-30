@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
 
 
@@ -25,7 +27,7 @@ $(document).ready(function () {
                         data: user,
                         success: function (response) {
                             window.location.href = "welcome.html";
-                            welcomeName = name;
+                            
                         }
                     });
                 }
@@ -67,7 +69,7 @@ $(document).ready(function () {
                 $("#welcome-section #amen").remove();
                 
         
-                var message = '<div id = "amen"> <input type="number" placeholder="amount" required="required"> <br> <button>submit</button> </div>';
+                var message = '<div id = "amen"> <input type="number" placeholder="amount" required="required"> <br> <button id = "deposit" >submit</button> </div>';
         
         
                 $("#welcome-section").append(message); 
@@ -128,13 +130,14 @@ $(document).ready(function () {
     $("#welcome-section button.view").click( function() {
 
          $("#welcome-section #amen").remove();
-         $.getJSON('http://localhost:3000/posts', function(data){
+         $.getJSON('http://localhost:3000/comments', function(data){
                 var message = '';
             $.each(data, function(key,value){
         
                 message += '<div id="amen" >';
                 message += '<tr>';
-                message +='<td>' + value.transactions +'</td>';
+                message +='<td>' + value.type +'  '+'</td>';
+                message +='<td>' + value.amount +'</td>';
                 message += '<tr>';
                 message +='</div>'
         
@@ -144,6 +147,52 @@ $(document).ready(function () {
         }) 
            
     });
+
+    $("#welcome-section").on('click','button#deposit', function(){
+    
+    let transaction={
+        "amount": $('#amen input').val(),
+        "type": "deposit"
+        
+    }
+    $.ajax({
+
+        type: 'POST',
+        url: "http://localhost:3000/comments",
+        data: transaction,
+        success: function (response) {
+            alert("deposit successful");
+            window.location.href = "welcome.html";
+            
+        }
+    });
+    
+       
+
+    })
+
+    $("#welcome-section").on('click','button#deposit', function(){
+    
+        let transaction={
+            "amount": $('#amen input').val(),
+            "type": "deposit"
+            
+        }
+        $.ajax({
+    
+            type: 'POST',
+            url: "http://localhost:3000/comments",
+            data: transaction,
+            success: function (response) {
+                alert("deposit successful");
+                window.location.href = "welcome.html";
+                
+            }
+        });
+        
+           
+    
+        })
 
     
 });
