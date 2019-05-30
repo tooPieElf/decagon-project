@@ -62,7 +62,7 @@ $(document).ready(function () {
         
             });
     
-    $("#welcome-section button.transact").click( function() {
+    $("#welcome-section button.transact1").click( function() {
 
                 $("#welcome-section #amen").remove();
                 
@@ -72,6 +72,17 @@ $(document).ready(function () {
         
                 $("#welcome-section").append(message); 
             });  
+
+    $("#welcome-section button.transact2").click( function() {
+
+                $("#welcome-section #amen").remove();
+                
+        
+                var message = '<div id = "amen"> <input type="number" placeholder="amount" required="required"> <br> <button>submit</button> </div>';
+        
+        
+                $("#welcome-section").append(message); 
+            }); 
 
     $("#welcome-section button.update").click( function() {
 
@@ -109,39 +120,6 @@ $(document).ready(function () {
 
              $("#welcome-section").append(message);
 
-             let user = {
-                name: $('input#name').val(),
-                Email: $('input#email').val(),
-                phone: $('input#phone').val(),
-                password: $('input#password').val()
-
-            }
-            var name = $('input#name').val(),
-                Email = $('input#email').val(),
-                phone = $('input#phone').val(),
-                password = $('input#password').val();
-
-                $("#update").on('click', function(){
-
-                   
-
-                if (name == '' || Email == '' || phone == '' || password == '') {
-                    alert("please fill in all form fields");
-                    alert(name);
-                }
-                    
-                
-                    
-                   
-                
-            
-                });    
-
-            
-        
-
-             
-
              
 
         
@@ -156,7 +134,7 @@ $(document).ready(function () {
         
                 message += '<div id="amen" >';
                 message += '<tr>';
-                message +='<td>' + value.name +'</td>';
+                message +='<td>' + value.transactions +'</td>';
                 message += '<tr>';
                 message +='</div>'
         

@@ -5,6 +5,12 @@
       "Email": "ascendancytutor@gmail.com",
       "Phonenumber": "07037258422",
       "password": "chukwudi1",
+      "acct-bal": 0,
+      "transactions": [
+        {
+          "withdraw": 1000
+        }
+      ],
       "id": 1
     },
     {
@@ -27,11 +33,33 @@
       "phone": "07037258422",
       "password": "this",
       "id": 4
+    },
+    {
+      "name": "ify",
+      "Email": "ify@gmail.com",
+      "phone": "07037258422",
+      "password": "this",
+      "id": 5
+    },
+    {
+      "name": "obiageli",
+      "Email": "oby@gmail.com",
+      "phone": "07037258422",
+      "password": "this",
+      "id": 6
+    },
+    {
+      "name": "akabo",
+      "Email": "akabo@gmail.com",
+      "phone": "07037258422",
+      "password": "this",
+      "id": 7
     }
   ],
   "comments": [
     {
-      "id": 1,
+      "type": " ekeremgba ",
+      "amount": 1000,
       "body": "some comment",
       "postId": 1
     }
