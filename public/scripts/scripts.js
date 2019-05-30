@@ -80,7 +80,7 @@ $(document).ready(function () {
                 $("#welcome-section #amen").remove();
                 
         
-                var message = '<div id = "amen"> <input type="number" placeholder="amount" required="required"> <br> <button>submit</button> </div>';
+                var message = '<div id = "amen"> <input type="number" placeholder="amount" required="required"> <br> <button id="withdraw">submit</button> </div>';
         
         
                 $("#welcome-section").append(message); 
@@ -150,6 +150,11 @@ $(document).ready(function () {
 
     $("#welcome-section").on('click','button#deposit', function(){
     
+        var amount=$('#amen input').val()
+        if(amount==''){
+            alert('transaction cannot be empty')
+        }else{
+
     let transaction={
         "amount": $('#amen input').val(),
         "type": "deposit"
@@ -167,28 +172,37 @@ $(document).ready(function () {
         }
     });
     
-       
+}  
 
     })
 
-    $("#welcome-section").on('click','button#deposit', function(){
-    
-        let transaction={
-            "amount": $('#amen input').val(),
-            "type": "deposit"
-            
-        }
-        $.ajax({
-    
-            type: 'POST',
-            url: "http://localhost:3000/comments",
-            data: transaction,
-            success: function (response) {
-                alert("deposit successful");
-                window.location.href = "welcome.html";
+    $("#welcome-section").on('click','button#withdraw', function(){
+        
+        var amount=$('#amen input').val()
+        if(amount==''){
+            alert('transaction cannot be empty')
+        }else{
+            let transaction={
+                amount: $('#amen input').val(),
+                "type": "withdraw"
+               
                 
             }
-        });
+            $.ajax({
+        
+                type: 'POST',
+                url: "http://localhost:3000/comments",
+                data: transaction,
+                success: function (response) {
+                    alert("withdraw successful");
+                    window.location.href = "welcome.html";
+                    
+                }
+            });
+
+        }
+
+        
         
            
     
