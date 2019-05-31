@@ -63,59 +63,14 @@
       "id": 1
     },
     {
-      "amount": "6000",
+      "amount": "8000",
       "type": "deposit",
       "id": 2
     },
     {
-      "amount": "8000",
-      "type": "deposit",
+      "amount": "9000",
+      "type": "withdraw",
       "id": 3
-    },
-    {
-      "amount": "60000",
-      "type": "deposit",
-      "id": 4
-    },
-    {
-      "amount": "70000",
-      "type": "deposit",
-      "id": 5
-    },
-    {
-      "amount": "40000",
-      "type": "withdraw",
-      "id": 6
-    },
-    {
-      "amount": "8000000",
-      "type": "deposit",
-      "id": 7
-    },
-    {
-      "amount": "",
-      "type": "deposit",
-      "id": 8
-    },
-    {
-      "amount": "",
-      "type": "withdraw",
-      "id": 9
-    },
-    {
-      "amount": "",
-      "type": "withdraw",
-      "id": 10
-    },
-    {
-      "amount": "",
-      "type": "withdraw",
-      "id": 11
-    },
-    {
-      "amount": "60000",
-      "type": "withdraw",
-      "id": 12
     }
   ],
   "profile": {

@@ -174,7 +174,7 @@ $(document).ready(function () {
     
 }  
 
-    })
+    });
 
     $("#welcome-section").on('click','button#withdraw', function(){
         
@@ -206,7 +206,68 @@ $(document).ready(function () {
         
            
     
-        })
+        
+    });
+
+    $("#welcome-section").on('click','button#update', function(){
+
+        let user = {
+            name: $('input#name').val(),
+            Email: $('input#email').val(),
+            phone: $('input#phone').val(),
+            password: $('input#password').val()
+
+        }
+        id=0;
+        var name = $('input#name').val(),
+                    Email = $('input#email').val(),
+                    phone = $('input#phone').val(),
+                    password = $('input#password').val();
+        
+                    if (name == '' || Email == '' || phone == '' || password == '') {
+                        alert("please fill in all form fields");
+                    } else {
+
+                        $.ajax({
+                            type: 'GET',
+                            url: "http://localhost:3000/posts",
+                            
+                            success: function (response) {
+                                alert('step1')
+                                $.each(response, function(key, value){
+                            
+                                    if(Email==value.Email){
+                                        id=value.id
+   
+                                    }
+                                        
+                                    
+                                })
+                                alert('step2')
+                                $.ajax({
+                                    type: "PUT",
+                                    url: `http://localhost:3000/posts/4`,
+                                    data: users,
+                                    dataType: "json",
+                                    success: function (response) {
+                                        alert('finally');
+                                    }
+                                });
+
+
+                                
+                            }
+                        });
+
+
+
+                    }
+
+    });
+
+
+    
+
 
     
 });
