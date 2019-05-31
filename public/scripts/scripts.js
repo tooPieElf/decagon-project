@@ -233,26 +233,28 @@ $(document).ready(function () {
                             url: "http://localhost:3000/posts",
                             
                             success: function (response) {
-                                alert('step1')
+                                
                                 $.each(response, function(key, value){
                             
                                     if(Email==value.Email){
-                                        id=value.id
+                                        
+                                        $.ajax({
+                                            type: "PUT",
+                                            url: `http://localhost:3000/posts/${value.id}`,
+                                            data: user,
+                                            
+                                            
+                                            success: function (response) {
+                                            
+                                            }
+                                        });
    
                                     }
                                         
                                     
                                 })
-                                alert('step2')
-                                $.ajax({
-                                    type: "PUT",
-                                    url: `http://localhost:3000/posts/4`,
-                                    data: users,
-                                    dataType: "json",
-                                    success: function (response) {
-                                        alert('finally');
-                                    }
-                                });
+                                
+                                
 
 
                                 

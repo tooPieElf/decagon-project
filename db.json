@@ -28,17 +28,17 @@
       "id": 3
     },
     {
-      "name": "chukwudi ndimneze",
+      "name": "ewu",
       "Email": "omegapasky@gmail.com",
       "phone": "07037258422",
       "password": "this",
       "id": 4
     },
     {
-      "name": "ify",
+      "name": "eze ifenyinwa",
       "Email": "ify@gmail.com",
       "phone": "07037258422",
-      "password": "this",
+      "password": "chukwudi1",
       "id": 5
     },
     {
@@ -71,6 +71,16 @@
       "amount": "9000",
       "type": "withdraw",
       "id": 3
+    },
+    {
+      "amount": "80000000",
+      "type": "deposit",
+      "id": 4
+    },
+    {
+      "amount": "100000",
+      "type": "deposit",
+      "id": 5
     }
   ],
   "profile": {
