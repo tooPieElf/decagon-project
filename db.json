@@ -5,12 +5,6 @@
       "Email": "ascendancytutor@gmail.com",
       "Phonenumber": "07037258422",
       "password": "chukwudi1",
-      "acct-bal": 0,
-      "transactions": [
-        {
-          "withdraw": 1000
-        }
-      ],
       "id": 1
     },
     {
@@ -28,17 +22,17 @@
       "id": 3
     },
     {
-      "name": "ewu",
+      "name": "adabe",
       "Email": "omegapasky@gmail.com",
-      "phone": "07037258422",
-      "password": "this",
+      "phone": "09033237339",
+      "password": "adabe",
       "id": 4
     },
     {
-      "name": "eze ifenyinwa",
+      "name": "eze ifesinachi",
       "Email": "ify@gmail.com",
-      "phone": "07037258422",
-      "password": "chukwudi1",
+      "phone": "08130035142",
+      "password": "omega",
       "id": 5
     },
     {
@@ -66,21 +60,6 @@
       "amount": "8000",
       "type": "deposit",
       "id": 2
-    },
-    {
-      "amount": "9000",
-      "type": "withdraw",
-      "id": 3
-    },
-    {
-      "amount": "80000000",
-      "type": "deposit",
-      "id": 4
-    },
-    {
-      "amount": "100000",
-      "type": "deposit",
-      "id": 5
     }
   ],
   "profile": {

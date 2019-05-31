@@ -26,6 +26,7 @@ $(document).ready(function () {
                         url: "http://localhost:3000/posts",
                         data: user,
                         success: function (response) {
+                            window.localStorage.setItem('email', Email);
                             window.location.href = "welcome.html";
                             
                         }
@@ -49,7 +50,7 @@ $(document).ready(function () {
                         $.each(response, function(key, value){
                             
                             if(email==value.Email && password==value.password){
-                                
+                                window.localStorage.setItem('email', email);
                                 window.location.href = "welcome.html";
                                 
                             }
@@ -245,7 +246,7 @@ $(document).ready(function () {
                                             
                                             
                                             success: function (response) {
-                                            
+                                            alert("update successful!")
                                             }
                                         });
    
